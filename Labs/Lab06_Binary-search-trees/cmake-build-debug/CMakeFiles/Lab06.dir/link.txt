@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab06.dir/BSTList.c.o  -o Lab06 

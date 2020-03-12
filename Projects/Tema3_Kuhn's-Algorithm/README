@@ -1,0 +1,25 @@
+314CD COTOVANU CRISTIAN
+
+Scopul proiectului:
+	Implementarea algoritmului lui Kuhn pentru calcularea problemei costului minim.
+
+Implementare:
+	Am folosit cateva functii auxiliare si anume:
+		1. get_min si get_max pentru calculul minimului respectiv maximului dintre 2 numere.
+		2.compute_dist pentru calculul distantei Manhattan pentru 2 puncte.
+		3.read_size care citeste dimensiunile numarul de coloane(orase)
+		si linii(centrale) din fisier si returneaza un vector ce contine cele 2 dimensiuni.
+		4.read_matrix citeste matricea de costuri si o returneaza.
+		5.find_path care gaseste un cuplaj minim intre 2 elemente ale grafului bipartit format din multimile oraselor si centralelor.
+		6.free_all care elibereaza toti vectorii alocati anterior si respectiv matricea de costuri.
+		7.Vectorii folositi reprezinta:
+			-central_assign: cu ce oras e cuplata centrala
+			-city_assign: cu ce centrala e cuplat orasul 
+			-covered_row si covered_col: sunt folositi pentru a afla daca o col si rand sunt acoperiti
+			-val_row si val_col: contin suma valorilor ce au fost adaugate pe col si rand
+
+	Apoi se aloca si initializeaza toti vectorii cu 0, adica toate liniile si coloanele sunt decuplate, pornind de la cuplajul obtinut la pasul anterior, se calculeaza si suportul minim ce are acelasi nr. de muchii(respectiv varfuri) si anume o multime de linii si coloane care acopera toate zerourile. Atat timp cat un 0 nu este acoperit pe o pozitie (i,j), il taiem, apoi vedem daca linia i este cuplata:
+	caz I(linia este cuplata): Acoperim linia i si descoperim coloana cu care este cuplata.
+	caz II(linia nu este cuplata): Incercam sa construim drumul cuplajului si anume, pornim de pe pozitia (i,j) anterior taiata.
+	Daca coloana j este cuplata, constinuam drumul cu 0-ul incercuit din coloana j.
+	Algoritm-ul se va repeta de N ori, cuplajul maxim crescand cu 1 dupa fiecare iteratie(pas).

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab12___Hash_Map.dir/words.c.o  -o Lab12___Hash_Map 

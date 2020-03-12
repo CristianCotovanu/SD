@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Tema2.dir/TestDictionary.c.o  -o Tema2 

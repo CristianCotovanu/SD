@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab08 - Arbori Heap/Heap.h
+stdlib.h
+-
+math.h
+-
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab08 - Arbori Heap/TestHeap.c
+stdio.h
+-
+stdlib.h
+-
+Heap.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab08 - Arbori Heap/Heap.h
+

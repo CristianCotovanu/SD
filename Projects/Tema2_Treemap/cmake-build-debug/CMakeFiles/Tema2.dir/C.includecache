@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Tema2/TestDictionary.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+TreeMap.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Tema2/TreeMap.h
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Tema2/TreeMap.h
+stdlib.h
+-
+

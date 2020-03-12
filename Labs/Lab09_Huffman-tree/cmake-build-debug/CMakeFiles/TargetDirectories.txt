@@ -1,0 +1,3 @@
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab09 - Huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab09 - Huffman/cmake-build-debug/CMakeFiles/Lab09___Huffman.dir
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab09 - Huffman/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/BST.h
+stdlib.h
+-
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/BSTList.c
+BST.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/BST.h
+List.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/List.h
+Queue.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/Queue.h
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/List.h
+stdlib.h
+-
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab06/Queue.h
+stdio.h
+-
+stdlib.h
+-
+

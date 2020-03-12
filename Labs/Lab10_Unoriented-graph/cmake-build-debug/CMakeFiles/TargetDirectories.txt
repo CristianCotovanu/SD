@@ -1,0 +1,3 @@
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/cmake-build-debug/CMakeFiles/Lab10___Grafuri_neorientate.dir
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab10___Grafuri_neorientate.dir/testGraph.c.o  -o Lab10___Grafuri_neorientate 

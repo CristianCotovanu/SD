@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab07___Arbori_echilibrati_AVL.dir/testAVL.c.o  -o Lab07___Arbori_echilibrati_AVL 

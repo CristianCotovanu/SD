@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/Graph.h
+Util.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/Util.h
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/Util.h
+
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/testGraph.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+Graph.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/Graph.h
+Util.h
+/home/student/Desktop/Anul 1/Sem 2/SD/Lab10 - Grafuri neorientate/Util.h
+

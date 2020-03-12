@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab09___Huffman.dir/test.c.o  -o Lab09___Huffman 

@@ -1,0 +1,71 @@
+314CD Cotovanu Cristian
+
+Scopul proiectului:
+	Implementarea unor structuri de liste ce reprezinta cluburi respectiv 
+	liste de jucatori.
+
+Implementare:
+	Am folosit 2 functii auxiliare si anume: 
+		a) add_player_aux() - aloca si adauga un jucator intr-un tip de lista 
+		   Player respectand criteriile.
+		b) get_player_aux() - scoate un jucator dintr-o lista si returneaza 
+		   pointer la celula sa.
+		c) add_player_aux2() - identica cu add_player_aux() doar ca respectand
+		   criteriile de la B.
+	
+	A.
+	1.initialize_clubs() - aloc si adaug in lista cate un club pentru fiecare
+	  celula din vectorul names.
+	
+	2.add_club() - aloc si adaug clubul in lista corespunzatoare.
+	
+	3.add_player() - adaug jucatorul in lista cu add_player_aux.
+	
+	4.transfer_player() - caut cele 2 cluburi in lista de cluburi, apoi cu 
+	  get_player_aux obtin celula jucatorului ce trebuie transferat si o 
+	  adaug in noul club cu add_player_aux.
+	
+	5.remove_player() - gasesc celula cu functia get_player_aux apoi o dezaloc.
+
+	6.update_score() - gasesc celula cu functia get_player_aux, updatez scorul,
+	  apoi cu add_player_aux o adaug in lista de jucatori.
+	
+	7.update_position() - gasesc celula cu functia get_player_aux, updatez 
+	  pozitia si scorul, apoi cu add_player_aux o adaug in lista de jucatori.
+	
+	8.add_injury() - gasesc celula cu functia get_player_aux, updatez scorul, 
+	  apoi cu add_player_aux o adaug in lista de jucatori. La calculul scorului,
+	  in cazul in care acesta nu este multiplu de 10, ii adaug 10 pentru ca 
+	  scorul se va trunchia la valoarea maxima.
+	
+	9.recover_from_injury() - gasesc celula din lista cu jucatori accidentati cu
+	  functia get_player_aux, iar cu add_player_aux o adaug in lista de jucatori
+	  neaccidentati.
+
+	P.S: Functiile 4, 5, 6, 7 se aplica si listelor de jucatori accidentati.
+
+	B.
+	1.union_teams() - caut cele 2 cluburi in lista de cluburi, apoi cat timp
+	  cele 2 cluburi nu au ajuns la final adaug jucatori din fiecare, iar in
+	  cazul in care unul a ajuns la final, se termina toti jucatorii din 
+	  celalalt club.
+
+	2.get_best_player() - aloc un jucator care se updateaza de fiecare data 
+	  cand se gaseste unul cu scor mai mare, in cazul in care nu exista acesta
+	  va fi dezalocat.
+
+	3.get_top_players() - adaug toti jucatorii fiecarui club pe rand intr-o lista
+	  auxiliara, apoi cu add_player_aux2 se adaug un numar N de jucatori din lista
+	  auxiliara in lista finala de top_players.
+
+	4.get_players_by_score() - adaug din fiecare club toti jucatorii ce au campul
+	  score mai mare decat cel primit ca parametru.
+
+	5.get_players_by_position() - adaug in lista toti jucatorii ce au campul
+	  position identic cu cel primit ca parametru.
+
+	6.get_best_team() - in lista best_team se adauga cu add_player_aux2 cei
+	  mai buni jucatori pe fiecare pozitie, cu ajutorul functiei 
+	  get_players_by_position definita anterior.
+
+	P.S: Functiile 3, 4, 5 se aplica si listelor de jucatori accidentati.
